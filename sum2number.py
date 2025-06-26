@@ -1,5 +1,5 @@
-sum
-a = 1
-b = 3
-sum = a+b
-print(sum)
+def add(num1, num2):
+    return num1 + num2
+
+if  __name__ == '__main__':
+    print(add(3, 7))
